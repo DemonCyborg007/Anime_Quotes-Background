@@ -146,7 +146,7 @@ document.querySelector("#generate").addEventListener("click", () => {
 });
 
 generate = () => {
-  fetch("'https://animechan.xyz/api/random'")
+  fetch("https://animechan.xyz/api/random")
     .then((response) => response.json())
     .then((data) => {
         let list= data;
